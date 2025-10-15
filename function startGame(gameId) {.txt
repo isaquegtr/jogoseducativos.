@@ -1,0 +1,12 @@
+function startGame(gameId) {
+    if (gameId === 'game1') {
+        alert(Você iniciou o Jogo de Matemática Divertida!);
+         Aqui você pode redirecionar para uma página de jogo ou abrir um iframe
+         Exemplo window.location.href = game1.html;
+    } else if (gameId === 'game2') {
+        alert(Você iniciou o Quebra-cabeça de Palavras!);
+         Lógica para iniciar o jogo de palavras
+    } else {
+        alert(Jogo desconhecido!);
+    }
+}

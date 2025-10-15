@@ -1,0 +1,54 @@
+!DOCTYPE html
+html lang=pt-br
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleMinijogos Educativostitle
+    link rel=stylesheet href=style.css
+head
+body
+    header
+        div class=logo
+            h1Minijogos Educativosh1
+        div
+        nav
+            ul
+                lia href=#homeInícioali
+                lia href=#gamesJogosali
+                lia href=#aboutSobreali
+            ul
+        nav
+    header
+
+    section id=home class=hero
+        h2Bem-vindo ao nosso site de Minijogos!h2
+        pAqui, você aprende brincando.p
+    section
+
+    section id=games
+        h2Jogos Educativosh2
+        div class=games-list
+            div class=game-item
+                h3Jogo 1 Matemática Divertidah3
+                button onclick=startGame('game1')Jogarbutton
+            div
+            div class=game-item
+                h3Jogo 2 Quebra-cabeça de Palavrash3
+                button onclick=startGame('game2')Jogarbutton
+            div
+            !-- Adicione mais jogos aqui --
+        div
+    section
+
+    section id=about
+        h2Sobreh2
+        pEste site foi criado para ajudar crianças e jovens a aprender de forma divertida através de minijogos educativos.p
+    section
+
+    footer
+        p&copy; 2025 Minijogos Educativosp
+    footer
+
+    script src=scripts.jsscript
+body
+html
